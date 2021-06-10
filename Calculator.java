@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class Calculator {
-	public Calculator() throws ConsoleNotFoundException {
+	public Calculator() {
 		this.console = System.console();
 		this.writer = this.console.writer();
 		this.reader = this.console.reader();
